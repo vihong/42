@@ -6,7 +6,7 @@
 /*   By: vi-hong <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/06 14:51:17 by vi-hong           #+#    #+#             */
-/*   Updated: 2016/08/17 20:16:24 by vi-hong          ###   ########.fr       */
+/*   Updated: 2016/08/18 09:49:27 by vi-hong          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ int		main()
 	char*	mot1 = "pokemon";
 	char	mot2[10];
 
-//	ft_putstr(mot);
 
 	ft_putnbr(9);
 	printf("\n");
@@ -60,8 +59,8 @@ int		main()
 	printf("mot2: %s\n", ft_strcpy(mot2, mot1));
 
 
-//	printf("me1: %d\n",  );
-//	printf("Re1: %d\n",  );
+	printf("me1: %d\n",  );
+	printf("Re1: %d\n",  );
 
 	return(0);
 }
@@ -72,8 +71,12 @@ int		main()
 {
 	char*	mot1 = "chat";
 	char	mot2[] = "pokemon";
+	char	mot3[] = "moi    ";
 
-	printf("%s\n", ft_strncpy(mot2, mot1, 4));
+	printf("me1: %s\n", ft_strncpy(mot2, mot1, 3));
+	printf("RE2: %s\n", strncpy(mot2, mot1, 3));
+	printf("me2: %s\n", ft_strncpy(mot3, mot1, 4));
+	printf("RE2: %s\n", strncpy(mot3, mot1, 4));
 	return(0);
 }
 */
@@ -180,7 +183,7 @@ int		main()
 }
 */
 
-
+/*
 int		main()
 {
 	char*	mot1 = "";
@@ -194,7 +197,7 @@ int		main()
 	printf("me3: %d\n", ft_str_is_alpha(mot4));
 	return(0);
 }
-
+*/
 
 /*
 int		main()

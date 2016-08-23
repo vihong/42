@@ -28,22 +28,27 @@ int		ft_eight_queens_puzzle(void);
 
 int		main()
 {
-//	printf("%d\n", ft_iterative_factorial(0));
-//	printf("%d\n", ft_iterative_factorial(5));
-//	printf("%d\n", ft_iterative_factorial(-5));
-//	printf("%d\n", ft_recursive_factorial(-3));
-//	printf("%d\n", ft_recursive_factorial(0));
-//	printf("%d\n", ft_recursive_factorial(5));
+/*	printf("%d\n", ft_iterative_factorial(0));
+	printf("%d\n", ft_iterative_factorial(5));
+	printf("%d\n", ft_iterative_factorial(-5));
+*/
 
-//	printf("%d\n", ft_iterative_power(2, -3));
-//	printf("%d\n", ft_iterative_power(2, 0));
-//	printf("%d\n", ft_iterative_power(2, 2));
-//	printf("%d\n", ft_iterative_power(2, 3));
+/*	printf("%d\n", ft_recursive_factorial(-3));
+	printf("%d\n", ft_recursive_factorial(0));
+	printf("%d\n", ft_recursive_factorial(5));
+*/
 
-//	printf("%d\n", ft_recursive_power(2, -3));
-//	printf("%d\n", ft_recursive_power(2, 0));
-//	printf("%d\n", ft_recursive_power(2, 2));
-//	printf("%d\n", ft_recursive_power(2, 4));
+/*	printf("%d\n", ft_iterative_power(2, -3));
+	printf("%d\n", ft_iterative_power(2, 0));
+	printf("%d\n", ft_iterative_power(2, 2));
+	printf("%d\n", ft_iterative_power(2, 3));
+*/
+
+/*	printf("%d\n", ft_recursive_power(2, -3));
+	printf("%d\n", ft_recursive_power(2, 0));
+	printf("%d\n", ft_recursive_power(2, 2));
+	printf("%d\n", ft_recursive_power(2, 4));
+*/
 
 /*	printf("%d\n", ft_fibonacci(-2));
 	printf("%d\n", ft_fibonacci(0));
@@ -74,7 +79,7 @@ int		main()
 	printf("%d\n", ft_is_prime(5));
 */
 
-	printf("%d\n", ft_eight_queens_puzzle());
+//	printf("%d\n", ft_eight_queens_puzzle());
 
 /*	
 	printf("%d\n", ft_find_next_prime(2));
